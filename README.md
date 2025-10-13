@@ -2,7 +2,7 @@
 
 # Namibia Recipe Book — Project Proposal
 
-## 2. Introduction & Background
+## Introduction & Background
 
 This project is a plan to build a web application for a client based on the project **"Namibia Recipe Book"**.
 
@@ -11,7 +11,7 @@ The objective of this project is to address this issue by creating a dedicated d
 
 ---
 
-## 3. Problem Statement / Objectives
+## Problem Statement / Objectives
 
 ### Problem Statement
 There is currently a lack of a user-friendly platform for finding and sharing recipe books for Namibian cuisine.
@@ -21,7 +21,7 @@ The main objective of this project is to create an **interactive website** that 
 
 ---
 
-## 4. Proposed Solution
+## Proposed Solution
 
 The proposed solution is a website entitled **"Namibian Cuisine"** that will act as a digital cookbook.  
 The website will feature individual recipe cards for various dishes such as *kapana*, *mopane worms*, *potjiekos*, and more.
@@ -34,7 +34,7 @@ The website will feature individual recipe cards for various dishes such as *kap
 
 ---
 
-## 5. Scope & Limitations
+## Scope & Limitations
 
 ### Scope
 - Development of the core website structure  
@@ -49,7 +49,7 @@ The website will feature individual recipe cards for various dishes such as *kap
 
 ---
 
-## 6. System Design (Initial Concept)
+## System Design (Initial Concept)
 
 ### Pages and Features
 - **Home:** Landing page introducing the platform.  
