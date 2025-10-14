@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #D84315;
+    --secondary: #FFA726;
+    --accent: #4CAF50;
+    --title: #322153;
+    --text: #6C6C80;
+    --white: #FFFF;
+    --background: #F0F0F5;
+}
+
 body {
-    background-color: black;
+    font-family: 'Ubuntu', Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--text);
 }
