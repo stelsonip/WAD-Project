@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namibian Cuisine - Traditional Recipe Book</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
@@ -21,5 +21,40 @@
             </div>
         </div>
     </header>
+
+    <section class="hero">
+        <div class="container" style="display: flex; align-items: center; gap: 60px;">
+            <div class="hero-content">
+                <h1>Your Namibian recipe marketplace.</h1>
+                <p>We help people discover and preserve traditional recipes.</p>
+                <a href="recipes.html" class="btn-primary">
+                    <span>📖</span>
+                    <span>Explore Recipes</span>
+                </a>
+            </div>
+            <div class="hero-image">
+                <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="200" cy="200" r="180" fill="#D84315" opacity="0.1"/>
+                    <circle cx="200" cy="200" r="140" fill="#D84315" opacity="0.2"/>
+                    <text x="200" y="220" font-size="120" text-anchor="middle" fill="#D84315">🍲</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-section">
+        <div class="container">
+            <h2 class="section-title">Featured Recipes</h2>
+            <div class="recipes-grid" id="featuredRecipes"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Namibian Cuisine. Preserving traditions, one recipe at a time. 🇳🇦</p>
+        </div>
+    </footer>
+
+    
 </body>
 </html>
