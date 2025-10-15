@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namibian Cuisine - Recipes</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">🍲 Namibian <span>Cuisine</span></a>
+                <nav>
+                    <a href="index.html" class="active">Home</a>
+                    <a href="recipes.html">Recipes</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="submit.html">Submit Recipe</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="recipes-section">
+        <div class="container">
+            <h2 class="section-title">Traditional Recipes</h2>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <label> Select category:</label>
+                    <div class="category-types">
+                        <div class="category-type" data-type="Main Dish">
+                            <div class="category-icon">🍖</div>
+                            <div class="category-name">Main Dish</div>
+                        </div>
+                        <div class="category-type" data-type="Appetizer">
+                            <div class="category-icon">🥗</div>
+                            <div class="category-name">Appetizer</div>
+                        </div>
+                        <div class="category-type" data-type="Snack">
+                            <div class="category-icon">🍿</div>
+                            <div class="category-name">Snack</div>
+                        </div>
+                        <div class="category-type" data-type="Dessert">
+                            <div class="category-icon">🍰</div>
+                            <div class="category-name">Dessert</div>
+                        </div>
+                        <div class="category-type" data-type="Beverage">
+                            <div class="category-icon">🥤</div>
+                            <div class="category-name">Beverage</div>
+                        </div>
+                        <div class="category-type" data-type="Soup">
+                            <div class="category-icon">🍲</div>
+                            <div class="category-name">Soup</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label>Search recipes:</label>
+                    <input type="text" id="searchFilter" placeholder="Type to search recipe...">
+                </div>
+            </div>
+
+            <div class="recipes-grid" id="recipesGrid"></div>
+        </div>
+    </section>
+</html>
