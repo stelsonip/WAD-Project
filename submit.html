@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Recipe</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">🍲 Namibian <span>Cuisine</span></a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="recipes.html">Recipes</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="submit.html" class="active">Submit Recipe</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-section">
+        <div class="container">
+            <h2 class="section-title">Share Your Recipe</h2>
+
+            <p class="section-subtitle">Help us preserve Namibian culinary traditions</p>
+
+            <form class="submit-form" id="submitForm">
+                <div class="form-group">
+                    <label>Recipe Name *</label>
+                    <input type="text" name="name" required placeholder="e.g., Kapana">
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Category *</label>
+                        <select name="category" required>
+                            <option value="">Select category</option>
+                            <option value="Main Dish">Main Dish</option>
+                            <option value="Appetizer">Appetizer</option>
+                            <option value="Snack">Snack</option>
+                            <option value="Dessert">Dessert</option>
+                            <option value="Beverage">Beverage</option>
+                            <option value="Soup">Soup</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Prep Time (minutes) *</label>
+                        <input type="number" name="prepTime" required placeholder="30" min="1">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Cook Time (minutes) *</label>
+                        <input type="number" name="cookTime" required placeholder="45" min="1">
+                    </div>
+                    <div class="form-group">
+                        <label>Servings *</label>
+                        <input type="number" name="servings" required placeholder="4" min="1">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Description *</label>
+                    <textarea name="description" required placeholder="Brief description of the dish..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Ingredients * (one per line)</label>
+                    <textarea name="ingredients" required placeholder="500g beef&#10;2 onions, chopped&#10;3 tomatoes, diced"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>Instructions * (one step per line)</label>
+                    <textarea name="instructions" required placeholder="Heat oil in a pan&#10;Add onions and cook until soft&#10;Add beef and brown on all sides"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name *</label>
+                        <input type="text" name="submitter" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email *</label>
+                        <input type="email" name="email" required placeholder="your@email.com">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary" style="width: 100%;">
+                    <span>📤</span>
+                    <span>Submit Recipe</span>
+                </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Namibian Cuisine. Preserving traditions, one recipe at a time. 🇳🇦</p>
+        </div>
+    </footer>
+
+</body>
+</html>
