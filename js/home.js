@@ -1,8 +1,8 @@
-// Display featured recipes on home page
+// displaying featured recipes on home page
 function displayFeaturedRecipes() {
     const grid = document.getElementById('featuredRecipes');
     
-    // Show first 3 recipes as featured
+    // first 3 recipes as featured
     const featured = recipes.slice(0, 3);
     
     grid.innerHTML = featured.map(recipe => `
@@ -21,7 +21,7 @@ function displayFeaturedRecipes() {
     `).join('');
 }
 
-// Initialize on page load
+// initializing on page load
 document.addEventListener('DOMContentLoaded', function() {
     displayFeaturedRecipes();
 });
